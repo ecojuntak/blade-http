@@ -22,11 +22,8 @@
     "extra": {
         "laravel": {
             "providers": [
-                "CappyHoding\\BladeHttp\\BladeHttpServiceProvider"
-            ],
-            "aliases": {
-                "Debugbar": "CappyHoding\\BladeHttp\\Facade"
-            }
+                "EcoJuntak\\BladeHttp\\BladeHttpServiceProvider"
+            ]
         }
     }
 }
