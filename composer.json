@@ -11,11 +11,22 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.3.0"
+        "php": ">=5.3.0",
+        "laravel/framework": "^5.5"
     },
     "autoload": {
-        "psr-0": {
-            "BladeHttp": "src/"
+        "psr-4": {
+            "CappyHoding\\BladeHttp\\": "src/"
         }
-    }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CappyHoding\\BladeHttp\\BladeHttpServiceProvider"
+            ],
+            "aliases": {
+                "Debugbar": "CappyHoding\\BladeHttp\\Facade"
+            }
+        }
+    },
 }
