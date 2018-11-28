@@ -1,6 +1,6 @@
 <?php
 
-namespace CappyHoding\BladeHttp\DirectiveRepository;
+namespace CappyHoding\BladeHttp;
 
 use Illuminate\Support\Facades\Blade;
 

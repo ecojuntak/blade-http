@@ -1,6 +1,6 @@
 <?php
 
-namespace CappyHoding\BladeHttp\BladeHttpServiceProvider;
+namespace CappyHoding\BladeHttp;
 
 use Illuminate\Support\ServiceProvider;
 
